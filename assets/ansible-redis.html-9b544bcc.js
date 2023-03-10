@@ -1,0 +1,1 @@
+import{_ as e,X as s,Y as t,Z as n,$ as a}from"./framework-10d91a2c.js";const o={},c=a("h1",null,"ansible安装Redis",-1);function r(l,_){return s(),t("div",null,[n(" more "),c])}const d=e(o,[["render",r],["__file","ansible-redis.html.vue"]]);export{d as default};

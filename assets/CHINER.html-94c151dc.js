@@ -1,0 +1,1 @@
+import{_ as e,X as t,Y as o,Z as r,$ as c}from"./framework-10d91a2c.js";const n={},s=c("p",null,"CHINER: 干掉 PowerDesigner，这个国产数据库建模工具很强！",-1);function _(a,l){return t(),o("div",null,[r(" more "),s])}const d=e(n,[["render",_],["__file","CHINER.html.vue"]]);export{d as default};

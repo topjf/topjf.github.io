@@ -1,0 +1,12 @@
+import{_ as e,X as t,Y as o,$ as n,a2 as i,a3 as d,a0 as s,a1 as c,D as p}from"./framework-10d91a2c.js";const r={},l=n("h3",{id:"rmdir-删除空目录",tabindex:"-1"},[n("a",{class:"header-anchor",href:"#rmdir-删除空目录","aria-hidden":"true"},"#"),s(" rmdir 删除空目录")],-1),m=c(`<p>①、命令名称：rmdir</p><p>②、英文原意：remove empty directories</p><p>③、命令所在路径：/bin/rmdir</p><p>④、执行权限：所有用户</p><p>⑤、功能描述：删除空目录（如果目录下存在文件则不能删除）</p><p>⑥、语法： rmdir 【空目录名】</p><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code><span class="token punctuation">[</span>root@admin home<span class="token punctuation">]</span><span class="token comment"># mkdir dd</span>
+<span class="token punctuation">[</span>root@admin home<span class="token punctuation">]</span><span class="token comment"># ls</span>
+c  d  <span class="token function">dd</span>  e  root
+<span class="token punctuation">[</span>root@admin home<span class="token punctuation">]</span><span class="token comment"># rmdir dd</span>
+<span class="token punctuation">[</span>root@admin home<span class="token punctuation">]</span><span class="token comment"># ls</span>
+c  d  e  root
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code><span class="token punctuation">[</span>root@admin home<span class="token punctuation">]</span><span class="token comment"># mkdir -p ./dd/ff</span>
+<span class="token punctuation">[</span>root@admin home<span class="token punctuation">]</span><span class="token comment"># ls</span>
+c  d  <span class="token function">dd</span>  e  root
+<span class="token punctuation">[</span>root@admin home<span class="token punctuation">]</span><span class="token comment"># rmdir dd</span>
+rmdir: 删除 <span class="token string">&quot;dd&quot;</span> 失败: 目录非空
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,8);function u(v,k){const a=p("RouterLink");return t(),o("div",null,[l,n("ul",null,[n("li",null,[i(a,{to:"/linux/basis/command.html#%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86"},{default:d(()=>[s("返回命令大全列表")]),_:1})])]),m])}const b=e(r,[["render",u],["__file","rmdir.html.vue"]]);export{b as default};
